@@ -1,4 +1,5 @@
 var xhr = new XMLHttpRequest();
+// this should fix the non local issue
 xhr.open("GET", "https://galleryh.github.io/randimgfolder", true);
 xhr.responseType = 'document';
 xhr.onload = () => {
